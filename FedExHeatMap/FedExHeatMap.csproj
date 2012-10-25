@@ -110,7 +110,6 @@
     <Compile Include="Geocoding\IPToLatLongConverter.cs" />
     <Compile Include="Geocoding\Location.cs" />
     <Compile Include="Geocoding\Region.cs" />
-    <Compile Include="IpController.cs" />
     <Compile Include="MapDataController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
