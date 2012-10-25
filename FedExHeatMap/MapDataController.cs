@@ -7,7 +7,6 @@ namespace FedExHeatMap
 {
     public class MapDataController
     {
-
         public List<MapData> Get_MapData()
         {
             return new List<MapData>
