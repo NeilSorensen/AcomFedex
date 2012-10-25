@@ -47,7 +47,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GeoNamesTests.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="IpCoding.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -55,7 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FedExHeatMap\FedExHeatMap.csproj">
-      <Project>{DFFA6DFF-9A3E-453A-9356-AA45ECBC1CEB}</Project>
+      <Project>{dffa6dff-9a3e-453a-9356-aa45ecbc1ceb}</Project>
       <Name>FedExHeatMap</Name>
     </ProjectReference>
   </ItemGroup>
