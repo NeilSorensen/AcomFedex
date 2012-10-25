@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using FubuMVC.Core;
 
 namespace FedExHeatMap
@@ -18,6 +19,10 @@ namespace FedExHeatMap
                 .IgnoreControllerNamesEntirely()
                 .IgnoreMethodSuffix("Html")
                 .RootAtAssemblyNamespace();
+
+            Output.ToJson.WhenTheOutputModelIs<MapData>();
+            Output.ToJson.WhenTheOutputModelIs<List<MapData>>();
+
 
             // Match views to action methods by matching
             // on model type, view name, and namespace
